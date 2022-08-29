@@ -1,0 +1,83 @@
+h2{
+    width: 400px;
+    height: 200px;
+    top: 100px;
+    position: absolute;
+    color: antiquewhite;
+}
+
+body{
+    margin: 0;
+}
+
+
+
+header{
+    background-color: rgb(9, 212, 144);
+    padding:1.5rem;
+    display:flex;
+    justify-content:flex-end;
+    
+}
+
+.nombre_proyecto{
+
+max-width: 400px;
+margin-right: 600px ;
+padding: 0 2rem;
+
+
+}
+
+
+#Buscar{
+    background-color: rgb(239, 205, 255); 
+     border: 2px solid; 
+     border-color: rgb(242, 255, 0);
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie{
+    width: 300px;
+    margin: 1rem;
+    border-radius:  3PX;
+    box-shadow: 0.2px 4px 5px rgb(0,0,0,0.1);
+    padding: 0.5rem 1rem 1rem;
+
+}
+
+.movie img{
+    width: 100%;
+}
+.movie-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem 1rem;
+}
+.movie-info span{
+    background-color: rgb(237, 237, 243);
+    padding: .25rem .5rem;
+    border-radius: 5px;
+    font-weight: bold;
+
+ }
+
+ /* .overview{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1rem;
+    max-height: 100%;
+    transform: translateY(-101%);
+
+
+ } */
