@@ -89,6 +89,14 @@ main{
     cursor: pointer;
  
  }
+
+ input{
+    background-color: red;
+    color: aliceblue;
+    border-radius: 100px;
+    height: 30px;
+   cursor: pointer;
+ }
  /* .etiquetahighlight{
     background-color: red;
  } */
